@@ -1,0 +1,146 @@
+body {
+    background: #eee;
+}
+body nav.navbar.navbar-expand-md.navbar-light.bg-light {
+    background: black !important;
+        min-height: 90px;
+}
+.content-product{
+	padding: 15px;
+}
+.content {
+	margin: 15px 0;
+    border: 1px solid #d6d6d6;
+}
+.content-heading {
+    height: 60px;
+    background: #fff;
+    padding-left: 20px;
+    line-height: 60px;
+}
+.avatar {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: #ddd;
+    margin: 12px 15px 0 0;
+    border-radius: 5px;
+    background-color: #f37934;
+}
+.avatar:before {
+	display: block;
+    content: ' ';
+    width: 24px;
+    height: 25px;
+    background: no-repeat center center;
+    background-size: contain;
+    float: left;
+    margin: 5px;
+    background-image: url('https://www.foody.vn/asset/styles/images/icons/icon-tablenow-60x60.png');
+}
+h2.title-product {
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    line-height: 60px;
+}
+.col-sm-3 {
+    padding-bottom: 15px;
+}
+a.nav-link a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+	    background-color: #5b5b5b;
+	    height: 50px;
+}
+h2.title-footer {
+    color: #fff;
+    padding: 10px 0 15px;
+    font-size: 19px;
+}
+.about-content {
+    padding: 15px;
+    background: #fff;
+}
+.is-divider {
+    height: 3px;
+    display: block;
+    background-color: red;
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1.title {
+    text-align: center;
+    margin-top: 25px;
+}
+.Detail {
+    padding-bottom: 25px;
+}
+.carousel-item img{
+    width: 100%;
+}
+.img-bd img {
+    border-radius: 50%;
+        padding: 30px;
+}
+.info-testimonial a {
+    color: green;
+}
+
+.info-testimonial {
+    color: #000;
+}
+p.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.item-testimonial {
+    padding: 30px;
+    overflow: hidden;
+    border-right: 1px solid #ddd;
+    background: #fff;
+}
+.widget {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.25em;
+    border: 2px solid #000;
+        margin: 20px 0;
+        padding-bottom: 45px;
+}
+.widget .widget-title {
+    position: relative;
+    display: block;
+    height: 40px;
+    text-align: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 1.25em;
+     background-color: inherit;
+ }
+ .widget .widget-title span {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    background-color: #000;
+    color: #fff;
+    border-left: 20px solid #000;
+    border-right: 20px solid #000;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
